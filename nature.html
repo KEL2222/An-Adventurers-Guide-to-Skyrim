@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <h1>Nature Explorer</h1>
+
+    <p class="explore-intro">
+        Skyrim is home to countless wonders and dangers. Venture into the
+        wilderness to discover what awaits beyond the roads.
+    </p>
+
+    <div class="encounter-card">
+
+        <img
+            id="encounterImage"
+            class="encounter-image"
+            src="Images/SolitudeArch.png"
+            alt="Nature Encounter">
+
+        <div class="encounter-info">
+
+            <span id="encounterRarity" class="rarity common">
+                Common Encounter
+            </span>
+
+            <h2 id="encounterTitle">
+                Solitude Arch
+            </h2>
+
+            <p id="encounterDescription">
+                The natural stone arch supporting Solitude is one of Skyrim's
+                most famous landmarks. Formed over thousands of years by
+                erosion and weathering, it is a breathtaking sight for any
+                traveller entering the city.
+            </p>
+
+        </div>
+
+    </div>
+
+    <button id="exploreButton" class="explore-button">
+        Go Exploring
+    </button>
+
+    <div class="explore-tip">
+
+        <h3>Traveller's Tip</h3>
+
+        <p>
+            Every journey into Skyrim's wilderness is different.
+            Click the button above to discover a random creature,
+            landmark, plant or natural phenomenon.
+        </p>
+
+    </div>
+
+    <div class="navigation">
+
+        <a href="shopping.html" class="nav-button">
+            ◄ Shopping
+        </a>
+
+        <a href="index.html" class="bookmark-link">
+            <img
+                src="Images/MoveLogo.png"
+                class="bookmark"
+                alt="Contents">
+        </a>
+
+        <a href="food.html" class="nav-button">
+            Food ►
+        </a>
+
+    </div>
+
+</div>
+
+<audio id="SkyrimAudio" loop preload="auto">
+    <source src="audio/SkyrimAudio.mp3" type="audio/mpeg">
+    
+</audio>
+
+<script src="nature.js"></script>
+
+</body>
+</html>

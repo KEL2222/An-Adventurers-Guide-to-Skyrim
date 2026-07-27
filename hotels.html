@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <!-- Inns -->
+
+    <div class="hotel-section">
+
+        <div class="hotel-text">
+
+            <p>
+                No journey across Skyrim is complete without staying at one
+                of its welcoming inns. Found in every major city and many
+                smaller settlements, inns provide warm beds, hearty meals,
+                and a chance to rest before continuing your adventures.
+            </p>
+
+        </div>
+
+        <img src="Images/BanneredMare.png" class="hotel-image" alt="Inn">
+
+    </div>
+
+    <!-- Mercenaries -->
+
+    <div class="hotel-section reverse">
+
+        <div class="hotel-text">
+
+            <p>
+                If the journey gets lonely, mercenaries can be hired in many
+                of Skyrim's cities. Warriors, mages and archers are all
+                available to accompany travellers for a fee of 500 gold.
+            </p>
+
+        </div>
+
+        <img src="Images/Bard.png" class="hotel-image" alt="Bard">
+
+    </div>
+
+    <!-- Carousel -->
+
+    <div class="hotel-section">
+
+        <div class="hotel-text">
+
+            <h2>Recommended Inns</h2>
+
+            <ul>
+
+                <li>The Winking Skeever (Solitude)</li>
+                <li>The Bannered Mare (Whiterun)</li>
+                <li>The Bee and Barb (Riften)</li>
+                <li>The Sleeping Giant Inn (Riverwood)</li>
+                <li>Nightgate Inn (Eastmarch)</li>
+
+            </ul>
+
+        </div>
+
+        <div class="carousel-box">
+
+            <button class="carousel-btn" id="prev">&#10094;</button>
+
+            <img id="hotelCarousel"
+                 src="Images/WinkingSkeever.png"
+                 src="Images/BanneredMare.png"
+                 src="Images/BeeAndBarb.png"
+                 src="Images/TheSleepingGiantInn.png"
+                 src="Images/NightgateInn.png"
+                 alt="Hotel">
+
+            <button class="carousel-btn" id="next">&#10095;</button>
+
+        </div>
+
+    </div>
+
+    <!-- Transport -->
+
+    <div class="hotel-section reverse">
+
+        <div class="hotel-text">
+
+            <h2>Transport</h2>
+
+            <p>
+                Carriages travel between every major city and cost either
+                20 or 50 gold depending on distance.
+            </p>
+
+            <p>
+                Ferries operate from Dawnstar, Solitude and Windhelm for
+                50 gold.
+            </p>
+
+        </div>
+
+        <img src="Images/Carraige.png"
+             class="hotel-image"
+             alt="Transport">
+
+    </div>
+
+    <div class="navigation">
+
+        <a href="activities.html" class="nav-button">
+            ◄ Activities
+        </a>
+
+        <a href="index.html" class="bookmark-link">
+            <img src="Images/MoveLogo.png"
+                 class="bookmark"
+                 alt="Contents">
+        </a>
+
+        <a href="Shopping.html" class="nav-button">
+            Shopping ►
+        </a>
+
+    </div>
+
+</div>
+
+<audio id="SkyrimAudio" loop preload="auto">
+    <source src="audio/SkyrimAudio.mp3" type="audio/mpeg">
+    
+</audio>
+
+<script src="hotels.js"></script>
+
+</body>
+</html>

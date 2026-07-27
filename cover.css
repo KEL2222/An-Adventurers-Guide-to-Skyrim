@@ -1,0 +1,122 @@
+/* ============================
+   FONT
+============================ */
+
+@font-face {
+    font-family: "Skyrim";
+    src: url("Fonts/Balgruf-d256.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}S
+
+/* ============================
+   RESET
+============================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+/* ============================
+   PAGE
+============================ */
+
+body{
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+/* ============================
+   COVER
+============================ */
+
+.cover{
+    width:480px;
+    height:800px;
+    background:#000;
+    position:relative;
+    color:white;
+}
+
+/* ============================
+   TITLE
+============================ */
+
+.title{
+    width:100%;
+    text-align:center;
+    margin-top:35px;
+}
+
+.small-title{
+    font-family:"Skyrim";
+    font-size:28px;
+    letter-spacing:1px;
+}
+
+.main-title{
+    font-family:"Skyrim";
+    font-size:70px;
+    margin-top:8px;
+}
+
+/* ============================
+   LOGO
+============================ */
+
+.logo-container{
+    width:100%;
+    text-align:center;
+    margin-top:170px;
+}
+
+.BackgroundLogo{
+    position: absolute;
+
+    width: 280px;
+    height: auto;
+
+    left: 50%;
+    top: 55%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 1;
+}
+
+
+/* ============================
+   BOTTOM
+============================ */
+
+.bottom{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+}
+
+.subtitle{
+    width:100%;
+    text-align:center;
+    font-family:"Skyrim";
+    font-size:24px;
+}
+
+.bookmark{
+    position:absolute;
+    right:25px;
+    bottom:0;
+
+    width:40px;
+}
+

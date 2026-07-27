@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <h1>Shopping</h1>
+
+    <img src="Images/WhiterunShopping.png" class="shopping-banner" alt="Whiterun Market">
+
+    <div class="shopping-buttons">
+
+        <button class="shopBtn active" onclick="showShop('commerce', this)">
+            Commerce
+        </button>
+
+        <button class="shopBtn" onclick="showShop('services', this)">
+            Services
+        </button>
+
+        <button class="shopBtn" onclick="showShop('training', this)">
+            Training
+        </button>
+
+        <button class="shopBtn" onclick="showShop('trade', this)">
+            Economy
+        </button>
+
+    </div>
+
+    <div class="shop-info">
+
+        <!-- Commerce -->
+
+        <div id="commerce" class="shop-content">
+
+            <h2>Commerce Across Skyrim</h2>
+
+            <p>
+                Every Hold throughout Skyrim supports a thriving economy.
+                From the bustling streets of Solitude to the market squares
+                of Whiterun, merchants provide travellers with food,
+                equipment, clothing, crafting materials and magical supplies.
+                Nearly every settlement has a general goods store alongside
+                specialist traders such as blacksmiths, apothecaries and
+                court wizards.
+            </p>
+
+            <p>
+                Adventurers are encouraged to sell treasures recovered from
+                caves, Nordic ruins and Dwemer cities. Merchants will buy
+                most equipment, helping travellers fund their next journey.
+            </p>
+
+        </div>
+
+        <!-- Services -->
+
+        <div id="services" class="shop-content">
+
+            <h2>Merchant Services</h2>
+
+            <p>
+                Travellers can expect to find a wide variety of services
+                throughout Skyrim including:
+            </p>
+
+            <ul>
+
+                <li>Blacksmiths repairing and selling weapons and armour.</li>
+
+                <li>Alchemists providing ingredients, potions and poisons.</li>
+
+                <li>General goods merchants purchasing unwanted loot.</li>
+
+                <li>Food vendors supplying cooked meals and fresh produce.</li>
+
+                <li>Court Wizards selling spell tomes and magical equipment.</li>
+
+                <li>Jewellers trading gems, jewellery and precious metals.</li>
+
+            </ul>
+
+        </div>
+
+        <!-- Training -->
+
+        <div id="training" class="shop-content">
+
+            <h2>Merchants Who Offer Training</h2>
+
+            <p>
+                Several merchants and craftsmen are recognised masters in
+                their professions and are willing to train aspiring
+                adventurers for a fee.
+            </p>
+
+            <ul>
+
+                <li><strong>Arcadia</strong> – Alchemy (Whiterun)</li>
+
+                <li><strong>Balimund</strong> – Smithing (Riften)</li>
+
+                <li><strong>Revyn Sadri</strong> – Speech (Windhelm)</li>
+
+                <li><strong>Sergius Turrianus</strong> – Enchanting (College of Winterhold)</li>
+
+                <li><strong>Colette Marence</strong> – Restoration (College of Winterhold)</li>
+
+                <li><strong>Giraud Gemane</strong> – Speech (Bards College, Solitude)</li>
+
+            </ul>
+
+            <p>
+                Improving these skills will help adventurers negotiate
+                better prices, create stronger equipment and survive
+                Skyrim's harsh wilderness.
+            </p>
+
+        </div>
+
+        <!-- Economy -->
+
+        <div id="trade" class="shop-content">
+
+            <h2>Trade and Economy</h2>
+
+            <p>
+                Each Hold has developed its own economy around local
+                resources. Whiterun exports grain and livestock, Markarth
+                mines silver, Windhelm thrives on fishing and trade,
+                Riften supports agriculture and timber production, while
+                Solitude serves as Skyrim's principal port.
+            </p>
+
+            <p>
+                Caravans and travelling merchants regularly move between
+                settlements, ensuring goods are distributed across the
+                province. Prices are influenced by a traveller's Speech
+                skill and reputation, rewarding experienced traders with
+                better deals.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="navigation">
+
+        <a href="hotels.html" class="nav-button">
+            ◄ Hotels
+        </a>
+
+        <a href="index.html" class="bookmark-link">
+            <img src="Images/MoveLogo.png"
+                 class="bookmark"
+                 alt="Contents">
+        </a>
+
+        <a href="nature.html" class="nav-button">
+            Nature ►
+        </a>
+
+    </div>
+
+</div>
+
+<audio id="SkyrimAudio" loop preload="auto">
+    <source src="audio/SkyrimAudio.mp3" type="audio/mpeg">
+    
+</audio>
+
+<script src="shopping.js"></script>
+
+</body>
+</html>
